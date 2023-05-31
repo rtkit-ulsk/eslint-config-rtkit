@@ -1,0 +1,15 @@
+{
+    "version": "0.0.1",
+    "name": "eslint-config-rtkit",
+    "main": "index.js",
+    "exports": {
+        ".": "./configs/base.js",
+        "./react": "./configs/react.js"
+    },
+    "devDependencies": {
+        "eslint": "^8.41.0"
+    },
+    "dependencies": {
+        "eslint-plugin-import": "^2.27.5"
+    }
+}
