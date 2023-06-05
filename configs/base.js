@@ -1,7 +1,7 @@
 module.exports = {
     "env": {
       "browser": true,
-      "node": true
+      "node": true,
       "es2020": true,
     },
     "parserOptions": {
