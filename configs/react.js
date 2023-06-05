@@ -1,5 +1,6 @@
 module.exports = {
+    "plugins": ["react"],
     "rules": {
-        "no-unused-vars": 2,
+        "react/require-default-props": "off"
     }
 }

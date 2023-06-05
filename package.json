@@ -10,6 +10,11 @@
         "eslint": "^8.41.0"
     },
     "dependencies": {
-        "eslint-plugin-import": "^2.27.5"
+        "eslint-plugin-destructuring": "^2.2.1",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-simple-import-sort": "^10.0.0",
+        "prettier": "^2.8.8"
     }
 }
