@@ -1,8 +1,8 @@
 module.exports = {
     "env": {
       "browser": true,
-      "es6": true,
       "node": true
+      "es2020": true,
     },
     "parserOptions": {
       "sourceType": "module",
