@@ -20,6 +20,8 @@ module.exports = {
         "no-shadow": "error",
         "prefer-const": "error",
         "no-restricted-exports": "off",
+        "camelcase": "error",
+        "arrow-body-style": "always",
         "import/extensions": "off",
         "import/no-anonymous-default-export": "error",
         "import/no-extraneous-dependencies": "off",
