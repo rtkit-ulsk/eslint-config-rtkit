@@ -21,7 +21,7 @@ module.exports = {
         "prefer-const": "error",
         "no-restricted-exports": "off",
         "camelcase": "error",
-        "arrow-body-style": "always",
+        "arrow-body-style": "error",
         "import/extensions": "off",
         "import/no-anonymous-default-export": "error",
         "import/no-extraneous-dependencies": "off",
