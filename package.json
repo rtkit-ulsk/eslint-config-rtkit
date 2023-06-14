@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-rtkit",
-    "version": "0.0.14",
+    "version": "1.0.0",
     "main": "index.js",
     "exports": {
         ".": "./configs/base.js",
