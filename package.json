@@ -1,11 +1,42 @@
 {
-    "version": "0.0.13",
     "name": "eslint-config-rtkit",
+    "version": "0.0.13",
     "main": "index.js",
     "exports": {
         ".": "./configs/base.js",
         "./ts": "./configs/typescript.js",
         "./react": "./configs/react.js"
+    },
+    "description": "Set of configurations for Rostelecom IT projects",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rtkit-ulsk/eslint-config-rtkit"
+    },
+    "keywords": [
+        "style guide",
+        "eslint",
+        "lint",
+        "rtkit",
+        "es6",
+        "react",
+        "js",
+        "ts",
+        "jsx",
+        "tsx"
+    ],
+    "contributors": [
+        {
+            "name": "Konstantin Pogodin",
+            "url": "https://github.com/gadzillllla"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rtkit-ulsk/eslint-config-rtkit/issues"
+    },
+    "homepage": "https://github.com/rtkit-ulsk/eslint-config-rtkit",
+    "engines": {
+        "node": ">=16.0.0"
     },
     "dependencies": {
         "@babel/core": "^7.22.5",
