@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-rtkit",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "description": "Set of configurations for Rostelecom IT projects",
     "type": "module",
     "keywords": [
@@ -43,30 +43,30 @@
         "pack": "npm pack --pack-destination=./dist"
     },
     "dependencies": {
-        "@eslint/eslintrc": "^3.3.1",
-        "@eslint/js": "^9.35.0",
-        "@typescript-eslint/eslint-plugin": "^8.43.0",
-        "eslint": "^9.35.0",
+        "@eslint/eslintrc": "^3.3.4",
+        "@eslint/js": "^10.0.1",
+        "@typescript-eslint/eslint-plugin": "^8.56.1",
+        "eslint": "^10.0.2",
         "eslint-config-prettier": "^10.1.8",
-        "eslint-doc-generator": "^2.0.0",
+        "eslint-doc-generator": "^3.2.0",
         "eslint-import-resolver-typescript": "^4.4.4",
         "eslint-plugin-destructuring": "^2.2.1",
         "eslint-plugin-import": "^2.32.0",
         "eslint-plugin-jsx-a11y": "^6.10.2",
-        "eslint-plugin-prettier": "^5.5.4",
+        "eslint-plugin-prettier": "^5.5.5",
         "eslint-plugin-react": "^7.37.5",
         "eslint-plugin-simple-import-sort": "^12.1.1",
-        "globals": "^16.4.0",
-        "typescript-eslint": "^8.43.0"
+        "globals": "^17.3.0",
+        "typescript-eslint": "^8.56.1"
     },
     "devDependencies": {
-        "eslint-plugin-n": "^17.0.0"
+        "eslint-plugin-n": "^17.24.0"
     },
     "engines": {
-        "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+        "node": "^20.19.0 || >=21.1.0"
     },
     "peerDependencies": {
-        "eslint": ">=9.0.0"
+        "eslint": ">=10.0.0"
     },
     "license": "MIT"
 }
